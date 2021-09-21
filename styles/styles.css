@@ -71,7 +71,7 @@ body {
   color: var(--accent-color);
 }
 
-.header-link.current {
+.header-list .header-link.current {
   color: var(--accent-color);
 }
 
@@ -110,6 +110,13 @@ body {
   letter-spacing: 0.06em;
   color: #ffffff;
   background-color: #2196f3;
+  border: none;
+  cursor: pointer;
+}
+
+.hero .hero-btn:hover,
+.hero .hero-btn:focus {
+  background-color: #188ce8;
 }
 
 /* ------------SPECIAL--------------- */
